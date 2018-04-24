@@ -1,4 +1,4 @@
-node('pearlSlaveNode') {
+node('master') {
 
     sh 'java -version'
     sh 'mvn -version'
