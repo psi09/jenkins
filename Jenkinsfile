@@ -1,10 +1,10 @@
 node('cloudbees-jenkins-node1') {
 
-
+sh '''#!/bin/sh
 echo $JAVA_HOME
     sh 'java -version'
     sh 'mvn -version'
-
+'''
     
     def buildInfo
 	
