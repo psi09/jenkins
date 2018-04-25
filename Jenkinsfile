@@ -1,6 +1,7 @@
 node('cloudbees-jenkins-node1') {
 
 
+echo $JAVA_HOME
     sh 'java -version'
     sh 'mvn -version'
 
