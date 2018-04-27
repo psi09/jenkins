@@ -25,6 +25,7 @@ echo $JAVA_HOME
 	stage 'Push Artifactory'
 
 
+	
 	sh '''#!/bin/sh
     
 	role_to_assume_arn="arn:aws:iam::704055408335:role/ProdJenkinsProj50CrossAccount"
